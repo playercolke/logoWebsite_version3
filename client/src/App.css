@@ -31,3 +31,11 @@ body {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+#logo_banner {
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  text-align: center;
+  border-style: solid;
+}

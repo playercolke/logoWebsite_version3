@@ -141,7 +141,7 @@ class CreateLogoScreen extends Component {
                                     </div>
                                     <div className="form-group">
                                         <label htmlFor="fontSize">Font Size:</label>
-                                        <input type="number" className="form-control" name="fontSize" ref={node => {
+                                        <input type="number" min='1' className="form-control" name="fontSize" ref={node => {
                                             fontSize = node;
                                         }} value={this.state.fontSize}
                                         onChange={this.handleFontSizeChange} />

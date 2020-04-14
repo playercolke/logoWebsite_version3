@@ -14,9 +14,6 @@ const GET_LOGOS = gql`
   }
 `;
 
-const LOGOS = [GET_LOGOS];
-
-const SORTED_LOGOS = LOGOS.sort((a, b) => b.lastUpdate - a.lastUpdate);
 
 class HomeScreen extends Component {
 

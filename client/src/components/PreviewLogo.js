@@ -17,7 +17,7 @@ class PreviewLogo extends Component {
         }
         return (
             <div className="col s8">
-                <div 
+                <div id="logo_banner"
                 style={ style.container }>
                     {style.container.text}
                 </div>
